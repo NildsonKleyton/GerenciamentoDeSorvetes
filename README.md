@@ -6,7 +6,7 @@
 
 **Atividade:**
 
-Criar um programa de gerenciamento de sorvetes de uma sorveteria.
+Criar um programa de gerenciamento de sorvetes.
 
 ##Funcionalidades:
 - [x] Inserir sorvete ✔
@@ -19,7 +19,7 @@ Criar um programa de gerenciamento de sorvetes de uma sorveteria.
   - [x] Lista simplis (Mosta apenas as os itens)
   - [x] Lista Complementar (Mostra valor Total e quantidade total do Estoque)
 
-- OBS: Projeto modificado para usar Banco De Dados
+- OBS: Projeto modificado para usar Banco De Dados.
 
 ## 🛠 Cosntruído com:
 :computer: ECLIPSE Java EE <br>
