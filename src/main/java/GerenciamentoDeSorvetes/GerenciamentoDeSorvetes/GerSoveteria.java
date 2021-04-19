@@ -73,7 +73,7 @@ public class GerSoveteria {
 				geralDao.remover(sv, nome);
 				op = 1;// ao sair do case retorna ao menu
 				break;
-			case 3:// listar
+			case 3:
 				List<Sorvete> listaSorvete = geralDao.listar(new Sorvete());
 				System.out.println("Litar de Sorvete");
 
@@ -85,14 +85,15 @@ public class GerSoveteria {
 					qLitros = qLitros + svl.getQuantidade();
 					vTotal = vTotal + (svl.getValor() + svl.getQuantidade());
 				}
-				System.out.println("\nTotal Litros em estoque:" + qLitros +"Lt");
+				System.out.println("\nTotal Litros em estoque:" + qLitros + "Lt");
 				System.out.println("Valor total de estoque: R$" + vTotal);
 				System.out.println("*******************************\n");
 				op = 1;// ao sair do case retorna ao menu
 				break;
+
 			case 0:
 				System.out.println("Sistema Finalizado.");
-				op = 0;// ao sair do case retorna ao menu
+				op = 0;// sair 
 				break;
 			default:
 				System.out.println("Opção invalida.");

@@ -48,6 +48,7 @@ public class GeralDaoImpl implements GeralDao{
 		return retorno;
 	}
 
+	
 	@Override
 	public List listar(Object obj) {
 		
