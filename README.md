@@ -23,6 +23,7 @@ Criar um programa de gerenciamento de sorvetes de uma sorveteria.
 
 ## 🛠 Cosntruído com:
 :computer: ECLIPSE Java EE <br>
+:space_invader: Maven<br>
 :bank: SQL & ORACLE <br>
 
 ## :postbox: Contato da equipe
