@@ -9,19 +9,19 @@
 Criar um programa de gerenciamento de sorvetes de uma sorveteria.
 
 ##Funcionalidades:
-- [x] Inserir sorvete â
+- [x] Inserir sorvete ✔
   - [] Evitar nome de produtos iguas(Inginorando case).
-- [x] Remover sorveteâ
+- [x] Remover sorveteâ ✔
   - [x] Remover item
   - [] remever tudo
   - [] NÃ£o remove lista vazia
-- [x] Listar todos os sorvetesâ
+- [x] Listar todos os sorvetesâ ✔
   - [x] Lista simplis (Mosta apenas as os itens)
   - [x] Lista Complementar (Mostra valor Total e quantidade total do Estoque)
 
 - OBS: Projeto modificado para usar Banco De Dados
 
-## ð  CosntruÃ­do com:
+## 🛠 Cosntruído com:
 :computer: ECLIPSE Java EE <br>
 :space_invader: Maven<br>
 :bank: SQL & ORACLE <br>
