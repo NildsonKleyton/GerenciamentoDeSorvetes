@@ -1,4 +1,4 @@
-# GerenciamentoSorvetes
+# Gerenciamento de Sorvetes
 
 **_Atividade Treinamento MV - Curso Fuctura_**
 
