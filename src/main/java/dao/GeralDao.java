@@ -6,6 +6,11 @@ import entidade.Sorvete;
 
 public interface GeralDao {
 	
+	/**
+	 * Inseri um Objeto no Banco
+	 * @param obj
+	 * @author Nildson Kleyton
+	 */
 	public void inserir(Object obj);
 	
 	/**
@@ -19,9 +24,11 @@ public interface GeralDao {
 	public Object remover(Object obj, Object chavePrimaria);
 	
 	/**
+	 * Lista todos os atributos do Objeto
 	 * 
 	 * @param obj
-	 * @return Lista do 
+	 * @return Lista o Objeto 
+	 * @author Nildson Kleyton
 	 */
 	public List listar(Object obj);
 
