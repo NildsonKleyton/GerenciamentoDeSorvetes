@@ -68,7 +68,7 @@ public class GerSoveteria {
 				break;
 			case 2:// remover
 				System.out.println("Remover!");
-				System.out.print("nome do produto a remover:");
+				System.out.print("Nome do produto a remover:");
 				nome = scantx.nextLine();
 				geralDao.remover(sv, nome);
 				op = 1;// ao sair do case retorna ao menu
@@ -80,6 +80,7 @@ public class GerSoveteria {
 				for (Sorvete sorvete : listaSorvete) {
 					System.out.println(sorvete.toString());
 				}
+				
 				double vTotal = 0, qLitros = 0;
 				for (Sorvete svl : listaSorvete) {
 					qLitros = qLitros + svl.getQuantidade();

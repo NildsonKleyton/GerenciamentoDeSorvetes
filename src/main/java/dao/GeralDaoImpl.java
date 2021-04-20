@@ -26,6 +26,7 @@ public class GeralDaoImpl implements GeralDao{
 		
 	}
 
+
 	@Override
 	public Object remover(Object obj, Object chavePrimaria) {
 		EntityManager entM = JpaUtil.getEntityManager(); 
