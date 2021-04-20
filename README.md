@@ -16,6 +16,7 @@ Criar um programa de gerenciamento de sorvetes.
   - [ ] remever tudo
   - [ ] Não remove lista vazia
 - [x] Listar todos os sorvetesâ ✔
+  - [ ] Não listar se lita vazia
   - [x] Lista simplis (Mosta apenas as os itens)
   - [x] Lista Complementar (Mostra valor Total e quantidade total do Estoque)
 
