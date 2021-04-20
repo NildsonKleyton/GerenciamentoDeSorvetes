@@ -8,6 +8,7 @@ public interface GeralDao {
 	
 	/**
 	 * Inseri um Objeto no Banco
+	 * 
 	 * @param obj
 	 * @author Nildson Kleyton
 	 */
