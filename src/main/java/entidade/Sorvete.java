@@ -38,7 +38,7 @@ public class Sorvete {
 	@Override
 	public String toString() {
 		return "nome=" +this.nome + ", fabricante=" + this.fabricante + ", ingredientes=" + this.ingredientes
-				+ ", quantidade=" + this.quantidade + ", valor= R$" + this.valor + " Valor Total= R$"+ (this.quantidade+this.valor) ;
+				+ ", quantidade=" + this.quantidade + ", valor= R$" + this.valor + " Valor Total= R$"+ (this.quantidade*this.valor) ;
 	}
 	public String getNome() {
 		return nome;

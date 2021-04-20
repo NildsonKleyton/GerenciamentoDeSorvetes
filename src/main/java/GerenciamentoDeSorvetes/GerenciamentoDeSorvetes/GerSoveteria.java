@@ -61,7 +61,7 @@ public class GerSoveteria {
 				sv.setValor(valor);
 
 				// adciona no banco de dados
-				sv = (Sorvete) geralDao.inserir(sv);
+				geralDao.inserir(sv);
 				System.out.println("***** Inserido *****\n");
 
 				op = 1;// ao sair do case retorna ao menu
@@ -83,7 +83,7 @@ public class GerSoveteria {
 				double vTotal = 0, qLitros = 0;
 				for (Sorvete svl : listaSorvete) {
 					qLitros = qLitros + svl.getQuantidade();
-					vTotal = vTotal + (svl.getValor() + svl.getQuantidade());
+					vTotal = (svl.getValor() * svl.getQuantidade());
 				}
 				System.out.println("\nTotal Litros em estoque:" + qLitros + "Lt");
 				System.out.println("Valor total de estoque: R$" + vTotal);

@@ -13,20 +13,17 @@ public class GeralDaoImpl implements GeralDao{
 	
 
 	@Override
-	public Object inserir(Object obj) {
+	public void inserir(Object obj) {
 		EntityManager entM = JpaUtil.getEntityManager(); //Prove a Pessistência 
 		EntityTransaction entT = entM.getTransaction();//Iniciar um trasação (EX.: Salvar , remover  etc)
-		
-		Object retorno =null;
 
 		entT.begin();// inica a transação
-		
-		retorno = entM.merge(obj);//inserir ou salva no banco de dados
+		entM.persist(obj);;//inserir ou salva no banco de dados	
 		
 		entT.commit();// conmmit a 
 		entM.close();//fecha a transação
 		
-		return retorno;
+		
 	}
 
 	@Override
